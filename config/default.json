@@ -1,0 +1,23 @@
+{
+  "missing_rate_threshold": 0.8,
+  "control_labels": ["Water", "DMSO"],
+  "quality_control_label": "Quality Control",
+  "validation_splits": [
+    "val_chem_only",
+    "val_strain_only",
+    "val_both",
+    "val_time"
+  ],
+  "matched_control_keys": [
+    "data_source",
+    "instrument",
+    "Yeast_cell_plate",
+    "Strains",
+    "Medium",
+    "Temperature",
+    "pert_time",
+    "pert_time_unit"
+  ],
+  "random_seed": 20260809
+}
+

@@ -1,0 +1,37 @@
+{
+  "input_dir": "D:\\Global Open-source AI Challenge\\input",
+  "metadata_rows": 8958,
+  "metadata_columns": [
+    "data_source",
+    "Strains",
+    "Medium",
+    "Temperature",
+    "pert_time",
+    "pert_time_unit",
+    "pert_id",
+    "perturbation_no_concentration",
+    "instrument",
+    "Yeast_cell_plate",
+    "protein_well",
+    "split_final",
+    "strain_role",
+    "chemical_role"
+  ],
+  "sample_id_unique": true,
+  "sample_id_aligned": true,
+  "split_counts": {
+    "train": 5920,
+    "val_both": 269,
+    "val_chem_only": 1065,
+    "val_strain_only": 1547,
+    "val_time": 157
+  },
+  "raw_protein_columns": 5243,
+  "missing_rate_threshold": 0.8,
+  "kept_proteins": 4422,
+  "removed_proteins": 821,
+  "observed_fraction_after_filter": 0.8503839062415903,
+  "log2_min_observed": 10.172365188598633,
+  "log2_max_observed": 35.29608154296875,
+  "test_target_loaded": false
+}

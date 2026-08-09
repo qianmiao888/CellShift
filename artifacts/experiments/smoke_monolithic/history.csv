@@ -1,0 +1,3 @@
+epoch,train_loss,train_mse,train_fc_loss,train_protein_corr_loss,balanced_val_rmse,balanced_val_delta_pcc
+1,,,,,,
+2,,,,,,

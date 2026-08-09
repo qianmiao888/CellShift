@@ -1,0 +1,21 @@
+{
+  "input_dir": "input",
+  "config": "D:\\Global Open-source AI Challenge\\config\\default.json",
+  "experiment_name": "ablation_residual_batch_mse",
+  "architecture": "residual",
+  "use_batch_calibration": true,
+  "latent_dim": 64,
+  "hidden_dim": 256,
+  "dropout": 0.1,
+  "category_dropout": 0.15,
+  "fc_weight": 0.0,
+  "protein_corr_weight": 0.0,
+  "component_reg_weight": 0.0001,
+  "epochs": 50,
+  "patience": 10,
+  "batch_size": 128,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "device": "cuda",
+  "seed": 20260809
+}

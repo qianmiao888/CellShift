@@ -1,0 +1,53 @@
+{
+  "experiment": "balanced_monolithic_batch_multiloss",
+  "best_epoch": 49,
+  "best_balanced_rmse": 0.44100742042064667,
+  "pca_explained_variance": 0.8203463554382324,
+  "metrics": [
+    {
+      "split": "val_chem_only",
+      "samples": 1065,
+      "log2_rmse": 0.39393624663352966,
+      "global_r2": 0.9800158143043518,
+      "protein_r2_median": 0.8343717455863953,
+      "evaluated_proteins": 4422,
+      "paired_values": 4021051,
+      "delta_rmse": 0.38672909140586853,
+      "delta_pcc": 0.3710978715613314
+    },
+    {
+      "split": "val_strain_only",
+      "samples": 1333,
+      "log2_rmse": 0.4879751205444336,
+      "global_r2": 0.9687948822975159,
+      "protein_r2_median": 0.6876024007797241,
+      "evaluated_proteins": 4421,
+      "paired_values": 5088955,
+      "delta_rmse": 0.48153024911880493,
+      "delta_pcc": 0.375720344957646
+    },
+    {
+      "split": "val_both",
+      "samples": 269,
+      "log2_rmse": 0.5038562417030334,
+      "global_r2": 0.9673412442207336,
+      "protein_r2_median": 0.7540201246738434,
+      "evaluated_proteins": 4414,
+      "paired_values": 1008739,
+      "delta_rmse": 0.4976848065853119,
+      "delta_pcc": 0.2703367917284295
+    },
+    {
+      "split": "val_time",
+      "samples": 139,
+      "log2_rmse": 0.37826207280158997,
+      "global_r2": 0.981429398059845,
+      "protein_r2_median": 0.7978373169898987,
+      "evaluated_proteins": 4422,
+      "paired_values": 521097,
+      "delta_rmse": 0.37200844287872314,
+      "delta_pcc": 0.5248391757943629
+    }
+  ],
+  "test_target_loaded": false
+}

@@ -1,0 +1,21 @@
+{
+  "input_dir": "input",
+  "config": "D:\\Global Open-source AI Challenge\\config\\default.json",
+  "experiment_name": "smoke_monolithic_fixed",
+  "architecture": "monolithic",
+  "use_batch_calibration": false,
+  "latent_dim": 32,
+  "hidden_dim": 128,
+  "dropout": 0.1,
+  "category_dropout": 0.15,
+  "fc_weight": 0.0,
+  "protein_corr_weight": 0.0,
+  "component_reg_weight": 0.0001,
+  "epochs": 2,
+  "patience": 2,
+  "batch_size": 128,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "device": "cuda",
+  "seed": 20260809
+}

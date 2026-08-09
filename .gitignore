@@ -1,0 +1,17 @@
+input/
+artifacts/cache/
+artifacts/checkpoints/
+artifacts/predictions/
+artifacts/**/*.pt
+artifacts/**/feature_encoder.json
+work/
+docs/*.docx
+scripts/build_submission_docx.py
+scripts/run_pipeline.py
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store

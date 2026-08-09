@@ -1,0 +1,11 @@
+{
+  "sample_rows": 4454,
+  "protein_columns": 4422,
+  "sample_id_unique": true,
+  "has_na": false,
+  "has_inf": false,
+  "prediction_min": 11.251798629760742,
+  "prediction_max": 33.89593505859375,
+  "prediction_scale": "log2",
+  "test_target_loaded": false
+}
